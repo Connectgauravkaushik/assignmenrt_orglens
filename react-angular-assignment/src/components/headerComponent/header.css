@@ -1,0 +1,21 @@
+  
+.header{
+    background-image: url("https://zeevector.com/wp-content/uploads/Blue-Banner-Background-HD.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+}
+.header > h1{
+    font-size: 60px;
+    color:white;
+    display: inline-block;
+}
+
+@media only screen and (max-width: 670px) {
+    .header > h1{
+        font-size: 30px;
+        color:white;
+        display: inline-block;
+    }
+  }
+  

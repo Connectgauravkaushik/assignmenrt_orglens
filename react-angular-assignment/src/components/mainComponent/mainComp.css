@@ -1,0 +1,65 @@
+.main-comp {
+  width: auto;
+  margin: 5px;
+}
+
+table {
+  border: 1px solid black;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 20px;
+}
+
+th {
+  background-color: yellow;
+}
+
+@media only screen and (max-width: 670px) {
+  table,
+  th,
+  td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 2px;
+  }
+}
+
+
+@media only screen and (min-width: 1024px ) {
+    .main-comp {
+        width: auto;
+        margin: 10px;
+      }
+
+    table,
+    th,
+    td {
+      border: 1px solid black;
+      border-collapse: collapse;
+      padding: 10px;
+    }
+  
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .main-comp {
+        width: auto;
+        margin: 10px;
+      }
+
+    table,
+    th,
+    td {
+      border: 1px solid black;
+      border-collapse: collapse;
+      padding: 5px;
+    }
+  
+  }
